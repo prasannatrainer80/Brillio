@@ -188,7 +188,60 @@ public static void main(String[] args) {
 
 main() method must be static, as not class object supposed to call the method main()
 
+You can create an object to the class, as 
 
+class_name obj = new class_name();
+
+
+Program to Convert Celsius to Kelvin
+
+
+Control Structures : 
+_____________________
+
+Used to define the flow of the program. 
+
+There are 2 types of control structures known as
+
+(i) Branching :
+
+if...else : Executes the statement(s) based on the condition.
+
+	if (condition) {
+		statement(s);
+	} else {
+		statement(s);
+	}
+
+
+Write a Program to implement Simple Current Bill as
+
+take no.of units as input 
+
+if units <= 90 then rate is 1rs 
+
+if units from 91 to 150 then 
+	rate = 1.5rs 
+if units are from 151 to 200 then 
+	rate = 2rs
+if units from 201 to 240 the rate = 2.5
+if units > 240 then rate = 3
+
+Note : It has to hit previous slabs 
+Case 1 : If units are 80 np as 80 * 1 as rate is 1
+Case 2 : If units are 120 then first 90 units 1rs and remaining 30 units 1.5
+	(90*1) + (30 * 1.5) 
+Case 3 : If units are 180 then 
+	(90*1) + (60 * 1.5) + (30 * 2)
+Case 4 : if units are 210 then 
+	(90*1) + (60 * 1.5) + (50 * 2) + (10 * 2.5)
+
+
+
+
+
+
+(ii) Looping 
 
 
 
