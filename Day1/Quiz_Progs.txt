@@ -1,0 +1,33 @@
+public class Quiz1 {
+   public static void main(String[] args) {
+	int x;
+	System.out.println(x);
+  }
+}
+
+___________________________________________________________________________________
+
+public class Quiz2 {
+    public static void main(String[] args) {
+	System.out.println("5" + 3 + 8); // 538
+	System.out.println("5"+(3+8));  // 511
+	System.out.println("5+3"+8);  // 5 + 38
+    }
+}
+
+__________________________________________________________________________
+
+
+public class Quiz3 {
+	public static void main(String[] args) {
+	   int a=10,b=20,c=30;
+	   String name="sam";
+	   System.out.println(name+a+b+c); sam102030
+	   System.out.println(a+b+name+c); 30sam30
+	   System.out.println(a+b+c+name); 60sam
+	}
+}
+__________________________________________________________________________
+
+
+
