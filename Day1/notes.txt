@@ -237,7 +237,23 @@ Case 4 : if units are 210 then
 	(90*1) + (60 * 1.5) + (50 * 2) + (10 * 2.5)
 
 
+switch...case : Used to define the menu-driven programs. 
 
+switch(expression) {
+	case expression1 :
+		statement(s);
+		break;
+	case expression2 :
+		statements(s);
+		break;
+	default:
+		statement(s);
+		break;
+}
+
+Write a code as if grade is 1 or 'A' or 'a' or 'I' print as "Grade A"
+		   grade is 2 or 'B', or 'b'  print as "Grade B"
+		   grade is 3 or 'C', or 'c'  print as "Grade C"
 
 
 
