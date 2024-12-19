@@ -121,6 +121,182 @@ double -> Double
 boolean -> Boolean
 
 
+class Test {
+   public void check(Object ob) {
+	if (ob=="ABC") {
+	  System.out.println("Hi");
+	} else {
+	  System.out.println("Bye");
+	}
+   }
+ 
+   public static void main(String[] args) {
+	Test test = new Test();
+	test.check("ABC");
+   }
+}
+
+__________________________________________________________________________________________________________________
+
+Object is the top level class in java. 
+
+hashCode()
+
+getClass()
+
+toString() : It is having string representation, used to print the member variables of the class. This method will be called automatically once you print the object. 
+
+What is the difference between == and equals()
+
+________________________________________________________________________________________________________________________
+
+
+Method Overloading : The concept of using the same method name w.r.t. different data types or different parameters known as method overloading. Here, the method name must be same, but no.of parameters or type of parameters we are using are different. 
+
+This is an example for compile-time polymorphism.
+
+____________________________________________________________________________________________________________________________________
+
+
+class Quiz1 {
+   public void show(double x) {
+	System.out.println("DOuble " +x);
+   }
+   public void show(Object x) {
+	System.out.println("Object " +x);
+   }
+   main() {
+	new Quiz1().show(12);
+   }
+}
+
+
+class Quiz2 {
+
+   public void show(long x) {
+	System.out.println("Long  " +x);
+   }
+   public void show(double x) {
+	System.out.println("DOuble " +x);
+   }
+   public void show(Object x) {
+	System.out.println("Object " +x);
+   }
+   main() {
+	new Quiz2().show(12);
+   }
+}
+
+
+
+class Quiz2 {
+
+   public void show(int x) {
+	System.out.println("Int  " +x);
+   }
+   public void show(double x) {
+	System.out.println("DOuble " +x);
+   }
+   public void show(Object x) {
+	System.out.println("Object " +x);
+   }
+   main() {
+	new Quiz2().show('X');
+   }
+}
+
+
+
+
+class Quiz2 {
+
+   public void show(char x) {
+	System.out.println("Char " +x);
+   }
+   public void show(int x) {
+	System.out.println("Int  " +x);
+   }
+   public void show(double x) {
+	System.out.println("DOuble " +x);
+   }
+   public void show(Object x) {
+	System.out.println("Object " +x);
+   }
+   main() {
+	new Quiz2().show('X');
+   }
+}
+
+
+class Quiz2 {
+
+   public void show(char x) {
+	System.out.println("Char " +x);
+   }
+   public int show(int x) {
+	return x++;
+   }
+
+   public void show(int x) {
+	System.out.println("X " +x);
+   }
+   public void show(double x) {
+	System.out.println("DOuble " +x);
+   }
+   public void show(Object x) {
+	System.out.println("Object " +x);
+   }
+   main() {
+	new Quiz2().show(2);
+   }
+}
+
+__________________________________________________________________________
+
+class Customer {}
+class Quiz3 {
+   public void show(String x) {
+	System.out.println("String " +x);
+   }
+   public void show(Object x) {
+	System.out.println("Object  " +x);
+   }
+
+   public static void main(String[] args) {
+	new Quiz3().show(new Customer());
+   }
+}
+
+__________________________________________________________________________________________
+
+public class Dummy {
+
+	    public static void main(String[] args) {
+	        System.out.println("HI");
+	    }
+	    public static void main() {
+	        System.out.println("Bye");
+	    }
+	    public static void main(String s) {
+	        System.out.println("String");
+	    }
+	    public static void main(int x) {
+	        System.out.println("INT");
+	    }
+}
+
+__________________________________________________________________________________________
+public class Hello {
+	public void show() {
+		System.out.println("Hi");
+        }
+	public static void main(String[] args) {
+	 Hello hello;
+	 hello.show();
+        }
+}
+
+
 
 
 
