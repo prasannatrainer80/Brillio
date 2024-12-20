@@ -296,8 +296,20 @@ public class Hello {
         }
 }
 
+_____________________________________________________________________________________________________
+
+Enums : If you want to store group of constant values, then we need the help of enums. 
+
+Enums can be used for data validations and can be used as user-defined data type. 
 
 
+syntax : 
+
+enum Gender {
+ MALE, FEMALE
+}
+
+ 
 
 
 
