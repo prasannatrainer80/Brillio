@@ -1,0 +1,16 @@
+1) Implement any 5 to 10 string methods of your own
+
+2) Write a Program to display any number in Roman Format (1 to 9999)
+
+3) Write a Program to print any number in English words from (1 to 9999)
+
+Example : 
+
+123 -> One Hundred twenty Three
+
+1234 -> One Thousand Two Hundred Thirty Four
+
+500 -> Five Hundred
+
+20 -> Twenty 
+
