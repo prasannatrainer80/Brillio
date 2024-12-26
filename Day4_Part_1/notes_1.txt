@@ -1,0 +1,112 @@
+interfaces : Java does not support the concept of multiple inheritance, to achieve this we need the help of interfaces.  An interface contains method declaration, and the implementation can be done in the corresponding class, you can add more than one interface to the particular class.
+
+
+interface interface_name {
+  method1();
+  method2();
+}
+
+class class_name implements interface_name {
+...
+...
+...
+}
+
+Differences between interface and abstract class : 
+____________________________________________________
+
+
+1) An abstract class contains both abstract and non-abstract methods, where interface contains only abstract methods. 
+
+2) Interface methods are public and abstract by default. 
+
+3) Multiple Inheritance can be achieved by using interfaces
+
+4) An interface can be called from anywhere to anywhere 
+
+Properties : 
+____________
+
+Properties provides an opportunity to protect a field in a class. These are methods, which are represented in value format. If you want to control internal behaviour of variables of class, then we need the help of properties.
+
+You can defined properties using getter and setter. 
+
+There are various types of properties as
+
+1) Read-Only Property
+2) Write-Only Property
+3) Read-Write Property 
+
+______________________________________________________________________________
+
+Collections : Arrays are static data structures means, once they are assigned we cannot alter the size. But if you want to add the elements irrespective of size, then we need the help of collections. 
+
+Collections can grow to any size unlike arrays. 
+
+Collections access data in terms of objects, so we need to unbox. 
+
+Collections are from util package. 
+
+In Collections framework, we have various interfaces as 
+
+(i) List : Allows you to store group of objects. ArrayList, LinkedList, Vector are falling in List interface. 
+
+(ii) Set : Allows you to remove duplicate entries for the given collection. HashSet, LinkedHashSet are falling under Set interface.
+
+(iii) SortedSet : Allows you to display data in sorted order. TreeSet is falling under SortedSet interface. 
+
+
+Generics : 
+___________
+
+Generics provides an opportunity to pass or define data types at runtime. If you want to make any method as write once and apply for all types, then we need the help of generics. 
+
+Generics will be represented using diamond symbol <T>, In place of <T> we can pass any data type, like String, Integer or Object or User-Defined class. 
+
+Advantages of Generics : 
+_________________________
+
+(i) Write Once and apply for all types
+(ii) Provides security to the data
+(iii) No Typecasting
+(iv) Reduces the size of the program. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
