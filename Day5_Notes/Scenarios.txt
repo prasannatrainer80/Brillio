@@ -1,0 +1,7 @@
+3) Assume we have scenario as maintaining Library management, where we have books as category, in that we have Novels, Academic and Sports as Subcategories, and GKBooks are added advantage to any entity. How can you represent this using Object Oriented Programming
+
+4) Write a Program to Implement take 2 times Zones and add the zones. Ex (  Time 1 as 1 hr 56 mins Time 2 as 2 hr 32 mins) then result 4 hrs 22 mins) 
+
+5)  Write a Program ensures read the data from the keyboard (scanner) if any char Is found between a  to z then please convert that into upper case (A-Z)
+
+6) Write Custom Exceptions for Take a string and check Whether the string not supposed to contain Special Characters(‘,’’#’,’$’,’%’,’@’) 
