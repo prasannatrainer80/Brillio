@@ -1,0 +1,136 @@
+SimpleDateFormat : THis class allows you to format or parse date values. 
+
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+format() : Used to convert date to string
+
+parse() : Used to convert String to date. 
+
+Map interface : Allows you to store data w.r.t. Key/Value pairs. 
+
+HashTable and HashMap are falling under Map interface. 
+
+put() : used to add the data. 
+
+Exception Handling : 
+_____________________
+
+It is a mechanism of handling the runtime errors during execution of the program. There are 2 types of errors known as 
+
+	(i) Compile Time
+
+	(ii) Runtime 
+
+To handle exceptions, we have 3 blocks known as
+
+(i) try block : This block contains statement(s) in which there is possibility of getting runtime errors, the statement(s) which are placed in this block are treated as heavy weighted statement(s) as JVM allocates excess memory to them. 
+
+(ii) catch block : Once exception raised in try block, then the control will be forwarded to catch block, this block contains alternate statement(s) for exceptions raised in try block. One try block can contains multiple catch blocks. 
+
+(iii) finally block : This block contains statement(s) that needs to be executed mandatorily irrespective of try and catch blocks, this block is not mandatory, but all the statements which are placed in this block are executed as mandatory statements. 
+
+Exception is the top most class, from which all kinds of exceptions are derived. 
+
+try {
+...
+...
+...
+} catch (Exception e) {
+...
+...
+} finally {
+...
+...
+...
+}
+
+printStackTrace() -> 
+
+There are 2 types of exceptions known as 
+
+(i) Checked Exceptions : These are the exceptions that which occurs at compile time, at the time of coding, JVM feels some erroneous code is there and stops the execution at compile time, can be handled at method level by using throws keyword. 
+
+(ii) Unchecked Exceptions 
+
+
+throw keyword : used to throw the exception object based on the condition. 
+
+System Exceptions are inadequate to handle in all situtations, to overcome this we need the help of Custom Exceptions. Any class that which derived from Exception class can be treated as custom exception. 
+
+class Exception_name extends Exception {
+      Exception_name(String error) {
+	 super(error);
+      }
+}
+
+Write a Program to accept age and check eligible for voting or not, it not raise user-defined Exception as VotingException 
+
+Write a program to perform sum of 2 numbers, but if any number < 0 throw NegativeException, if any number = 0 then throw NumberZeroException 
+
+
+Employ
+_______
+
+ empno
+ name
+ gender
+ dob
+ dept
+ desig
+ basic
+
+Validations  : 
+
+empno cannot be zero or negative
+name contains min 5 chars
+dob cannot be tomorrow's date
+basic must be between 10000 and 80000
+
+If validation fails, please raise EmployException
+
+Flow is 
+
+Data Layer to be Called in Business Layer, Business Layer to be called in Main.
+
+Business Layer responsible for implementing validations. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

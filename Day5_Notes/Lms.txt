@@ -1,0 +1,16 @@
+LeaveDetails 
+_______________
+
+leaveId  (int)
+empId (int)
+empName (String)
+leaveStartDate (Date)
+leaveEndDate (Date)
+noOfDays (int)
+leaveReason (String)
+leaveType (Enum EL/PL/ML)
+
+leaveId autoincrement. 
+leaveStartDate, leaveEndDate cannot be yesterday's date 
+leaveStartDate cannot be greater than leaveEndDate
+noOfDays to be calculated automatically 
