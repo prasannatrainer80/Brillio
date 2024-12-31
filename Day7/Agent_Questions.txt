@@ -1,0 +1,15 @@
+1) Display all records from Agent table
+
+2) Display all records whose gender is 'Female'
+
+3) Display AgentId, FirstName,LastName,City,State, MaritalStatus as if 0 then 'Unmarried' if 1 then 'Married'
+
+4) Display all records whose born in 1986
+
+5) Display all records whose born from 1983 to 1986
+
+6) Display all records whose FirstName ends with 'a'
+
+7) Display All records sorted by City, MaritalStatus and FirstName Wise ascending order
+
+8) Display All Countrys with no duplicates 
