@@ -70,3 +70,5 @@ INSERT INTO EMPLOYEE VALUES(3001,
 'SurabhiG@hexaware.com', 
 '7566008477','2017-11-14',
 'HEXAVARSITY',2001,20);
+
+select * from Employee;
