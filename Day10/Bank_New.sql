@@ -11,7 +11,7 @@ create table Accounts
     UserName varchar(30) UNIQUE,
     Passcode varchar(30),
     Email varchar(30) UNIQUE,
-    MobileNo varchar(20),
+    MobileNo varchar(20) UNIQUE,
     Amount Numeric(9,2)
 );
 
