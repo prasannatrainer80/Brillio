@@ -10,11 +10,35 @@ import java.util.List;
 import com.java.jdbc.model.Employ;
 import com.java.jdbc.model.Gender;
 import com.java.jdbc.util.ConnectionHelper;
+import com.java.jdbc.util.EncryptPassword;
 
 public class EmployDaoImpl implements EmployDao {
 
 	Connection connection;
 	PreparedStatement psmt;
+	
+	public int loginUser(String userName, String passCode) throws ClassNotFoundException, SQLException {
+		String encr = EncryptPassword.getCode(passCode);
+		connection = ConnectionHelper.getConnection();
+		String cmd = "select count(*) cnt from UserDetails where UserName = ? AND PassCode = ?";
+		psmt = connection.prepareStatement(cmd);
+		psmt.setString(1, userName);
+		psmt.setString(2, encr);
+		ResultSet rs = psmt.executeQuery();
+		rs.next();
+		int count = rs.getInt("cnt");
+		return count;
+	}
+	public String addUser(String userName, String passCode) throws ClassNotFoundException, SQLException {
+		connection = ConnectionHelper.getConnection();
+		String encr = EncryptPassword.getCode(passCode);
+		String cmd = "Insert into UserDetails(UserName, PassCode) values(?,?)";
+		psmt = connection.prepareStatement(cmd);
+		psmt.setString(1, userName);
+		psmt.setString(2, encr);
+		psmt.executeUpdate();
+		return "User Created with Encrypted Password...";
+	}
 	
 	@Override
 	public List<Employ> showEmploy() throws ClassNotFoundException, SQLException {
