@@ -29,6 +29,7 @@
 				<td>${employ.dept}</td>
 				<td>${employ.desig}</td>
 				<td>${employ.basic}</td>
+				<td><a href=SearchEmploy.jsp>Search Employ</a>
 				<td><a href=UpdateEmploy.jsp?empno=${employ.empno}>Update</a></td>
 				<td><a href=DeleteEmploy.jsp?empno=${employ.empno}>Delete</a></td>
 				
