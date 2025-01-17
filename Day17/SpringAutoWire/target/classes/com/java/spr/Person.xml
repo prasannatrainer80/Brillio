@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd">
+   
+<context:annotation-config />
+	<bean id="jobDetails" class="com.java.spr.JobDetails">
+		<property name="job" value="Associate Software Engineer" />
+		<property name="company" value="Brillio" />
+		<property name="location" value="Bren Optimus Bangalore" />
+	</bean>
+	<bean id="beanPersonSubhash" class="com.java.spr.Person">
+		<property name="id" value="1" />
+		<property name="name" value="Subhash" />
+		<property name="familyDetails">
+			<bean class="com.java.spr.Family">
+				<property name="city" value="Bangalore" />
+				<property name="state" value="KA" />
+			</bean>
+		</property>
+	</bean>
+	<bean id="beanPersonNavin" class="com.java.spr.Person">
+		<property name="id" value="2" />
+		<property name="name" value="Navin" />
+		<property name="familyDetails">
+			<bean class="com.java.spr.Family">
+				<property name="city" value="Hyderabad" />
+				<property name="state" value="TS" />
+			</bean>
+		</property>
+	</bean>
+	<bean id="beanPersonSrihari" class="com.java.spr.Person">
+		<property name="id" value="3" />
+		<property name="name" value="Srihari" />
+		<property name="familyDetails">
+			<bean class="com.java.spr.Family">
+				<property name="city" value="Chennai" />
+				<property name="state" value="TN" />
+			</bean>
+		</property>
+	</bean>
+</beans>
