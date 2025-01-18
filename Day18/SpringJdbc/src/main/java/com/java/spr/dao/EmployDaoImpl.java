@@ -77,14 +77,20 @@ public class EmployDaoImpl implements EmployDao {
 
 	@Override
 	public String updateEmployDao(Employ employ) {
-		// TODO Auto-generated method stub
-		return null;
+		String cmd = "Update Employ set Name = ?, Gender = ?, Dept = ?, Desig = ?, "
+				+ " Basic = ? Where Empno = ?";
+		jdbcTemplate.update(cmd, new Object[] {employ.getName(), employ.getGender(),
+					employ.getDept(), employ.getDesig(), employ.getBasic(), 
+					employ.getEmpno()
+				});
+		return "Employ Record Updated...";
 	}
 
 	@Override
 	public String deleteEmployDao(int empno) {
-		// TODO Auto-generated method stub
-		return null;
+		String cmd = "Delete From Employ where empno = ?";
+		jdbcTemplate.update(cmd, new Object[] {empno});
+		return "Employ Record Deleted...";
 	}
 
 }
