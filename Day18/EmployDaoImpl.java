@@ -66,8 +66,13 @@ public class EmployDaoImpl implements EmployDao {
 
 	@Override
 	public String addEmployDao(Employ employ) {
-		// TODO Auto-generated method stub
-		return null;
+		String cmd = "Insert into Employ(empno,name,gender,dept,desig,basic) "
+				+ " values(?,?,?,?,?,?)";
+		jdbcTemplate.update(cmd, new Object[] {
+				employ.getEmpno(), employ.getName(), employ.getGender(),
+				employ.getDept(),employ.getDesig(),employ.getBasic()
+		});
+		return "Employ Record Inserted...";
 	}
 
 	@Override
