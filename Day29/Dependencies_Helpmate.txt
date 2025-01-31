@@ -1,0 +1,18 @@
+Eureka Server
+_______________
+
+EurekaServer
+Web
+Devtools
+Config
+Lombok
+
+Client
+_______
+<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+<version>4.2.0</version>
+		</dependency>
+
+
