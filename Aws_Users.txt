@@ -4,3 +4,13 @@ User1_4-at-685421549691
 Password
 
 lrQX8chpjuy8Xp9u3muGmrXpN0O5OmlJe0coiaXYz2/s1DZsvKcyYVQUZ54=
+
+______________________________________________
+
+You can use these credentials when connecting from your local computer, or from tools that require a static user name and password. Learn more 
+User name
+
+User1_2-at-685421549691
+Password
+
+hADEs/wuZ2onSEgP7J558o8acznzhDX8ODSpPZIoJy7rzvFQoxAdxNEqlVc=
