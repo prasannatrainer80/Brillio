@@ -102,3 +102,57 @@ User2_6-at-685421549691
 Password
 
 Y8FYYvAvegTS/c66g0uiX7LDozTVsYVIRcjm8qAjtxBEFJ7n9Th0pJtD8nc=
+
+_________________________________________________________
+
+
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/Project3
+
+Shivani
+User name
+
+User3_1-at-685421549691
+Password
+
+ogoEFyql7kx7Duj1vgnLM83W7zDibaFN5aiCBSTOABzYxByhgxEQrGaCM5o=
+
+_________________________________________
+
+User name
+MounikaA
+
+User3_2-at-685421549691
+Password
+
+vM81XAXXW/ZDf85TZVBLHkOUp6O6ftzs35uDo3/Z/wNd5KMOCAgD9ud499w=
+
+_____________________________________________
+
+Subhash
+User name
+
+User3_3-at-685421549691
+Password
+
+7kIcXVnrhT/1mTIBjTl9I7Ia+yM6MmdTQNhsdZFeqJqDCVtf/dxt8SiXdh0=
+
+________________________________________________________
+
+that require a static user name and password. Learn more 
+Aakash
+User name
+
+User3_5-at-685421549691
+Password
+
+34YvNjhraaVeK0v842PsNzqgrdciKhsIeWbESiWXkoLmCjKddA7+3dw10Rg=
+
+_______________________________________________________
+
+Harshith
+User name
+
+User3_6-at-685421549691
+Password
+
+8ht04AQ2frr+xrvo4VDjnnqTxtc8j4TwCAjpm+kUlSQUO+DxpS4VyQ7U3Pk=
