@@ -1,0 +1,3 @@
+npm i @testing-library/react
+npm i @testing-library/jest-dom
+
